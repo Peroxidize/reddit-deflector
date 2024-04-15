@@ -10,7 +10,7 @@ const conditions = [
     !currentURL.includes("out.reddit.com"),
     !currentURL.includes("old.reddit.com"),
     !currentURL.includes("reddit.com/media"),
-    localStorage.length > 2,
+    localStorage.length > 4,
     !/^https:\/\/[a-z]{2}\.reddit\.com\//.test(currentURL),
 ];
 
